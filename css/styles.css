@@ -1,0 +1,147 @@
+    
+h1{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 3rem;;
+}
+
+.download-btn{
+    margin:5% 3% 5% 0;
+}
+
+.container-fluid{
+    padding:1.5% 13% 7%;
+}
+
+.text{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding:0 18px;
+}
+
+.img{
+    transform: rotate(25deg);
+    width: 50%;
+    position: absolute; 
+    right: 30%;
+}
+
+
+.feature-box{
+    padding: 5%;
+}
+
+.feature{
+    
+    color: #ef8172;
+    padding-bottom:10% ;
+}   
+
+.feature:hover{
+    color: #ff4c68;
+}
+
+.t-img{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+
+    padding: 7% 15%;
+}
+
+#title{
+    height: 100%;
+    background-color: #ff4c68;
+    color: white;
+    position: relative;
+    z-index: -1;
+}
+
+#features{
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    padding: 8rem 8rem;
+    text-align: center;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+#press{
+    padding-bottom: 3%;
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-column{
+    text-align: center;
+    padding: 2% 3%;
+}
+
+@media (max-width: 1080px)
+{
+    .img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 20%;
+    color: white;
+}
+
+#footer{
+    text-align: center;
+    padding: 3%;
+}
+
+.fa-2x{
+    margin: 20px;
+}
